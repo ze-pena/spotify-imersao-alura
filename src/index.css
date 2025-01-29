@@ -1,5 +1,69 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Light Italic';
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-LightItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Italic';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Medium Italic';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-MediumItalic.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Ubuntu Bold Italic';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(assets/fonts/Ubuntu/Ubuntu-BoldItalic.ttf);
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Ubuntu Regular", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -25,6 +89,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing: border-box;
 }
 
 article, aside, details, figcaption, figure, 
@@ -34,7 +99,6 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1;
-  min-width: 320px;
   min-height: 100vh;
 }
 
@@ -50,6 +114,18 @@ blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
 	content: none;
+}
+
+a {
+	text-decoration: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
 }
 
 table {
