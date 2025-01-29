@@ -1,0 +1,43 @@
+.navigation-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+
+.navigation-menu__logo {
+  padding: 24px 16px 0;
+}
+
+.navigation-menu__logo a img {
+  width: 115px;
+}
+
+.navigation-menu__links {
+  display: flex;
+  flex-direction: column;
+  margin-top: 16px;
+  padding: 0 16px 16px;
+}
+
+.navigation-menu__links__item  {
+  padding: 12px 0;
+}
+
+.navigation-menu__links__item a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navigation-menu__links__item a span {
+  color: #b3b3b3;
+  font-family: "Ubuntu Medium", sans-serif;
+  font-size: 1rem;
+}
+
+.navigation-menu__links__item a svg {
+  color: #b3b3b3;
+  font-size: 1rem;
+}
