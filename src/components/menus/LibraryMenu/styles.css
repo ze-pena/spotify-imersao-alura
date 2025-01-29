@@ -1,0 +1,110 @@
+.library-menu {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  background-color: #121212;
+  overflow: hidden;
+}
+
+.library-menu__label {
+  display: flex;
+  padding: 24px;
+}
+
+.library-menu__label__link {
+  flex-grow: 1;
+}
+
+.library-menu__label__link a {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.library-menu__label__link a svg {
+  color: #b3b3b3;
+  font-size: 1.25rem;
+}
+
+.library-menu__label__link a span {
+  color: #b3b3b3;
+  font-family: "Ubuntu Bold", sans-serif;
+  font-size: 1.15rem;
+}
+
+.library-menu__label__button {
+  display: flex;
+  align-items: center;
+}
+
+.library-menu__label__button svg {
+  color: #b3b3b3;
+  font-size: 1.25rem;
+}
+
+.library-menu__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 24px;
+  margin: 0 8px 8px;
+  border-radius: 8px;
+  background-color: #363636;
+}
+
+.library-menu__content h4 {
+  font-family: "Ubuntu Bold", sans-serif;
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+.library-menu__content p {
+  font-family: "Ubuntu Regular", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.library-menu__content button {
+  margin-top: 16px;
+  padding: 16px 32px;
+  border-radius: 50px;
+  font-family: "Ubuntu Bold", sans-serif;
+  font-size: 1rem;
+  color: #121212;
+  background-color: #ffffff;
+}
+
+.library-menu__cookies {
+  padding: 32px 24px;
+}
+
+.library-menu__cookies a {
+  font-family: "Ubuntu Regular", sans-serif;
+  font-size: 1rem;
+  color: #b3b3b3;
+}
+
+.library-menu__language {
+  display: flex;
+  padding: 8px 24px 24px;
+}
+
+.library-menu__language__button {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 16px;
+  border: 1px solid #b3b3b3;
+  border-radius: 8px;
+}
+
+.library-menu__language__button svg {
+  font-size: 1.15rem;
+  color: #ffffff;
+}
+
+.library-menu__language__button span {
+  font-family: "Ubuntu Medium", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
