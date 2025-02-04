@@ -1,0 +1,40 @@
+.artist-card {
+  flex-grow: 1;
+  flex-basis: 185px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  background-color: #363636;
+}
+
+.artist-card__picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.artist-card__picture img {
+  object-fit: cover;
+  object-position: center;
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: #b3b3b3;
+}
+
+.artist-card__name {
+  text-align: left;
+  font-family: "Ubuntu Medium", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  line-height: 1.8rem;
+}
+
+.artist-card__genre {
+  font-family: "Ubuntu Light", sans-serif;
+  font-size: 0.85rem;
+  color: #b3b3b3;
+  text-align: left;
+}
