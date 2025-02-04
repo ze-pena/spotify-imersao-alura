@@ -1,0 +1,79 @@
+.main-headerbar {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+
+.main-headerbar__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px
+}
+
+.main-headerbar__actions__button {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  color: #b3b3b3;
+  border-radius: 50%;
+  background-color: #000000;
+}
+
+.main-headerbar__search {
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  border-radius: 24px;
+  background-color: #363636;
+}
+
+.main-headerbar__search__icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.35rem;
+  color: #ffffff;
+}
+
+.main-headerbar__search__input {
+  font-family: "Ubuntu Light", sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+  outline: none;
+  border: 0;
+  background-color: transparent;
+}
+
+.main-headerbar__account {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.main-headerbar__account__signup {
+  flex-shrink: 0;
+  font-family: "Ubuntu Medium", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.main-headerbar__account__signin {
+  flex-shrink: 0;
+  padding: 16px 24px;
+  font-family: "Ubuntu Medium", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #121212;
+  border-radius: 24px;
+  background-color: #d2d2d2;
+}
