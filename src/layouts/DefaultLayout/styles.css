@@ -3,14 +3,16 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  background-color: #000000;
 }
 
 .default-layout__content {
   flex-grow: 1;
   display: flex;
+  gap: 16px;
+  padding: 24px;
+  background-color: #000000;
 }
-
+      
 .default-layout__content__aside {
   flex-basis: 400px;
 }
@@ -18,6 +20,18 @@
 .default-layout__content__main {
   flex-grow: 1;
   flex-shrink: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.default-layout__content__main__header {
+  display: flex;
+}
+
+.default-layout__content__main__children {
+  flex-grow: 1;
+  display: flex;
 }
 
 .default-layout__footer {
