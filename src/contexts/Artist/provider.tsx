@@ -1,12 +1,11 @@
-import { ReactNode, useState } from "react"
-import { Outlet } from "react-router-dom"
+import { PropsWithChildren, ReactNode, useState } from "react"
 import { providerData, ArtistContext } from "./context"
 
-export default function ArtistProvider(): ReactNode {
+export default function ArtistProvider({ children }: PropsWithChildren): ReactNode {
   const [ context, setContext ] = useState(providerData.context)
   return (
     <ArtistContext.Provider value={{ context, setContext }}>
-      <Outlet />
+      {children}
     </ArtistContext.Provider>
   )
 }
