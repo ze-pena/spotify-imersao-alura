@@ -4,7 +4,7 @@ type GET_ARTISTS_PARAMS = {
 
 type GET_ARTISTS_RESPONSE = Artist[]
 
-const baseUrl = "http://127.0.0.1:4001"
+const baseUrl = "http://localhost:4001"
 
 export default {
   getArtistList: async (params?: GET_ARTISTS_PARAMS): Promise<GET_ARTISTS_RESPONSE> => {
